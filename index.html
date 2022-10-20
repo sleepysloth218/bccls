@@ -1,0 +1,282 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" type="text/css" href="./styles.css">
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+    <title>BCCLS</title>
+</head>
+
+<body>
+
+    <div class="nav-bar">
+        <div class="nav-bar-content">
+            <div class="nav-bar-logo">
+                <a href=""><img src="./assets/logo_edited.png" alt="BCCLS logo www.bccls.org"></a>
+            </div>
+            <div class="hamburger-menu">
+                <span class="material-symbols-outlined">menu</span>
+            </div>
+            <div class="nav-bar-menu">
+                <div class="nav-menu-item">Catalog</div>
+                <div class="nav-menu-item">Digital Collections</div>
+                <div class="nav-menu-item">Events</div>
+                <div class="nav-menu-item">Services</div>
+                <div class="nav-menu-item">Support</div>
+                <div class="nav-menu-item">About</div>
+                <div class="nav-menu-item">Help</div>
+            </div>
+            <div class="nav-bar-buttons">
+                <button class="button-1">
+                    Log in <span class="material-symbols-outlined">login</span>
+                </button>
+                <button class="button-1">
+                    Sign up <span class="material-symbols-outlined">person_add</span>
+                </button>
+            </div>
+        </div>
+
+    </div>
+
+    <div class="top-banner">
+        <div class="top-banner-text">Go to my library</div>
+        <input list="libraries" name="library" id="library" class="datalist" placeholder="start typing to filter..." />
+        <datalist id="libraries">
+            <option value="Allendale" />
+            <option value="Bergenfield" />
+            <option value="Bloomfield" />
+            <option value="Bogota" />
+            <option value="Carlstadt" />
+            <option value="Rest ommitted" />
+        </datalist>
+        <button class="button-2">Go <span class="material-symbols-outlined">arrow_forward</span></button>
+    </div>
+
+    <div class="content-wrapper">
+        <div class="content-section">
+            <h1>Welcome to BCCLS!</h1>
+            <p class="subtitle">Home to 77 public libraries in NJ's Bergen, Essex, Hudson, and Passaic Counties</p>
+            <div class="slideshow">
+                <div class="left-arrow"><span class="material-symbols-outlined">arrow_back_ios</span></div>
+                <div class="slideshow-img-container">
+                    <div class="img-banner-top"><a href="">Read, Watch, Listen: Fresh Focus</a></div>
+                    <img src="assets/slidephoto.jpg" alt="comic con 2022" class="slideshow-img">
+                    <div class="img-banner-bottom"><a href="">Books to get you ready for Comic Con 2022!</a></div>
+                </div>
+                <div class="right-arrow"><span class="material-symbols-outlined">arrow_forward_ios</span></div>
+            </div>
+        </div>
+
+        <div class="content-section">
+            <div class="search-box">
+                <h2>Search the Catalog</h2>
+                <input type="text" name="search" id="catalog-search" class="search" placeholder="search..." />
+
+                <div class="search-buttons">
+                    <div class="search-options">
+                        <select name="search-library" id="search-library" class="form-dropdown">
+                            <option value="" disabled selected>Library</option>
+                            <option value="Allendale">Allendale</option>
+                            <option value="Bergenfield">Bergenfield</option>
+                            <option value="Bloomfield">Bloomfield</option>
+                            <option value="Bogota">Bogota</option>
+                            <option value="Carlstadt">Carlstadt</option>
+                            <option value="Ommitted">Rest ommitted</option>
+                        </select>
+                        <select name="media-format" id="media-format" class="form-dropdown">
+                            <option value="" disabled selected>Media Format</option>
+                            <option value="Audiobooks">Audiobooks</option>
+                            <option value="Books">Books</option>
+                            <option value="eBooks">eBooks</option>
+                            <option value="Graphic Novels">Graphic Novels</option>
+                            <option value="Magazines">Magazines</option>
+                            <option value="Movies & TV">Movies & TV</option>
+                            <option value="Music">Music</option>
+                            <option value="Video Games">Video Games</option>
+                        </select>
+
+                        <a href="">Advanced Search</a>
+                    </div>
+
+                    <button class="button-2">Search <span class="material-symbols-outlined">search</span></button>
+                </div>
+            </div>
+        </div>
+
+        <div class="content-section">
+            <h2>Browse</h2>
+
+            <div class="browse-subsection">
+                <h3>Recommendations</h3>
+                <p>Maintained by local BCCLS librarians to help you find the perfect items to check out.</p>
+
+                <div class="book-carousel">
+                    <div class="left-arrow"><span class="material-symbols-outlined">arrow_back_ios</span></div>
+                    <div class="books-container">
+                        <div class="book">
+                            <div class="cover-img-wrapper">
+                                <img src="assets/books/brokengirls.jpeg" alt="The Broken Girls by Simone St. James">
+                            </div>
+                            <p class="book-title">The Broken Girls</p>
+                            <p class="book-author">Simone St. James</p>
+                        </div>
+
+                        <div class="book">
+                            <div class="cover-img-wrapper">
+                                <img src="assets/books/daughterofdoctor.jpeg"
+                                    alt="The Daughter of Doctor Moreau by Silvia Moreno-Garcia">
+                            </div>
+                            <p class="book-title">The Daughter of Doctor Moreau</p>
+                            <p class="book-author">Silvia Moreno-Garcia</p>
+                        </div>
+
+                        <div class="book">
+                            <div class="cover-img-wrapper">
+                                <img src="assets/books/essexserpent.jpeg" alt="The Essex Serpent by Sarah Perry">
+                            </div>
+                            <p class="book-title">The Essex Serpent</p>
+                            <p class="book-author">Sarah Perry</p>
+                        </div>
+
+                        <div class="book">
+                            <div class="cover-img-wrapper">
+                                <img src="assets/books/hauntinghillhouse.jpeg"
+                                    alt="The Haunting of Hill House by Shirley Jackson">
+                            </div>
+                            <p class="book-title">The Haunting of Hill House</p>
+                            <p class="book-author">Shirley Jackson</p>
+                        </div>
+
+                        <div class="book">
+                            <div class="cover-img-wrapper">
+                                <img src="assets/books/wifeupstairs.jpeg" alt="The Wife Upstairs by Rachel Hawkins">
+                            </div>
+                            <p class="book-title">The Wife Upstairs</p>
+                            <p class="book-author">Rachel Hawkins</p>
+                        </div>
+                    </div>
+                    <div class="right-arrow"><span class="material-symbols-outlined">arrow_forward_ios</span></div>
+                </div>
+            </div>
+
+            <div class="browse-subsection">
+                <h3>What's New</h3>
+                <p>Find new and upcoming titles throughout BCCLS.</p>
+
+                <div class="book-carousel">
+                    <div class="left-arrow"><span class="material-symbols-outlined">arrow_back_ios</span></div>
+                    <div class="books-container">
+                        <div class="book">
+                            <div class="cover-img-wrapper">
+                                <img src="assets/books/ourmissinghearts.jpeg" alt="Our Missing Hearts by Celeste Ng">
+                            </div>
+                            <p class="book-title">Our Missing Hearts</p>
+                            <p class="book-author">Celeste Ng</p>
+                        </div>
+
+                        <div class="book">
+                            <div class="cover-img-wrapper">
+                                <img src="assets/books/smallbatchbakes.jpeg" alt="Small Batch Bakes by Edd Kimber">
+                            </div>
+                            <p class="book-title">Small Batch Bakes</p>
+                            <p class="book-author">Edd Kimber</p>
+                        </div>
+
+                        <div class="book">
+                            <div class="cover-img-wrapper">
+                                <img src="assets/books/readme.jpeg" alt="Readme.txt by Chelsea Manning">
+                            </div>
+                            <p class="book-title">Readme.txt</p>
+                            <p class="book-author">Chelsea Manning</p>
+                        </div>
+
+                        <div class="book">
+                            <div class="cover-img-wrapper">
+                                <img src="assets/books/quit.jpeg" alt="Quit by Annie Duke">
+                            </div>
+                            <p class="book-title">Quit</p>
+                            <p class="book-author">Annie Duke</p>
+                        </div>
+
+                        <div class="book">
+                            <div class="cover-img-wrapper">
+                                <img src="assets/books/michaelangelo.jpeg"
+                                    alt="Who Was Michelangelo? by Kirsten Anderson">
+                            </div>
+                            <p class="book-title">Who Was Michelangelo?</p>
+                            <p class="book-author">Kirsten Anderson</p>
+                        </div>
+                    </div>
+                    <div class="right-arrow"><span class="material-symbols-outlined">arrow_forward_ios</span></div>
+                </div>
+            </div>
+
+            <button class="button-1 center-button">View the full catalog <span
+                    class="material-symbols-outlined">menu_book</span></button>
+        </div>
+
+        <div class="content-section">
+            <h2>Upcoming Events</h2>
+            <p>Visit our <a>Events page</a> to search and filter through the full calendar!</p>
+
+            <div class="calendar-wrapper">
+                <iframe
+                    src="https://calendar.google.com/calendar/embed?src=en.usa%23holiday%40group.v.calendar.google.com&ctz=America%2FNew_York"
+                    style="border: 0" width="800" height="600" frameborder="0" scrolling="no"></iframe>
+            </div>
+        </div>
+
+        <div class="content-section two-column">
+            <div class="column">
+                <h2>Go Digital</h2>
+                <p>
+                    Patrons without a library card can register and get access to eBooks, eAudiobooks, and eMagazines
+                    during these challenging times.
+
+                    <br />
+                    <br />
+
+                    <a href="">Browse and download eContent now!</a>
+                </p>
+
+                <button class="button-1">Apply for an eCard <span
+                        class="material-symbols-outlined">add_card</span></button>
+            </div>
+
+            <div class="column">
+                <h2>Support the Library</h2>
+
+                <p>
+                    Appreciate the services that BCCLS provides? Sign up to support public library system, and your
+                    library in particular!
+
+                    <br />
+                    <br />
+
+                    <a href="">Learn more</a>
+                </p>
+            </div>
+        </div>
+    </div>
+
+    <div class="footer">
+        <div class="footer-content">
+            <div class="footer-logo">
+                <img src="assets/logo_transparent.png" alt="BCCLS logo www.bccls.org">
+            </div>
+
+            <p>
+                Copyright © 2021 - BCCLS <br />
+                Last Updated: October 11, 2022
+            </p>
+        </div>
+    </div>
+
+</body>
+
+</html>
